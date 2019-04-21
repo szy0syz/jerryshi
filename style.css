@@ -45,19 +45,15 @@
     display: block;
     margin-bottom: 6px;
     opacity: .5;
-    transition: .4s;
+    transition: .5s;
 }
 
-.menuicon .s1 {
+.menuicon:hover .s1 {
     left: -5px;
 }
 
-.menuicon .s2 {
+.menuicon:hover .s3 {
     left: 5px;
-}
-
-.menuicon:hover span {
-    left: 0;
 }
 
 .name {
